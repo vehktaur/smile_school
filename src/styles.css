@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my__grid {
+  @apply grid justify-items-center grid-cols-2 md:grid-cols-4 gap-6 lg:gap-10 sm:px-8;
+}
+
+.purple {
+  @apply text-school-purple;
+}
+
+.register {
+  @apply bg-school-purple rounded-full shadow-md hover:bg-purple-300;
+}
+
+.pro img {
+  @apply rounded-full;
+}
+
+.pro *:not(h3, img) {
+  @apply italic opacity-90;
+}
+
+.tutorial h3 {
+  @apply text-midnight-blue font-bold;
+}
+
+.membership {
+  @apply bg-midnight-blue text-white text-center;
+}
+
+.faq h3{
+  @apply text-midnight-blue
+}
+.nav__link, .footer__link {
+  @apply hover:text-purple-300
+}

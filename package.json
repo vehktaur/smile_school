@@ -1,0 +1,11 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "tailwindcss build -w -o public/styles.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

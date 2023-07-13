@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+  width: 93%;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.header_hero_pro {
+  background: white url(./images/hero_background.png) no-repeat;
+  color: white;
+  background-position: top 50% left 40%;
+  background-size: cover;
+  padding-block: 2.44rem 6.12rem;
+  min-height: 60.3125rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: clamp(7rem, 36vw, 10.4385rem);
+  height: 1.84131rem;
+  flex-shrink: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 clamp(0.9rem, 3vw, 3.25rem);
+}
+
+.nav__link {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10.5rem;
+}
+
+h1 {
+  margin-top: 10.5rem;
+  font-size: clamp(4rem, 5vw, 7.5rem);
+  line-height: calc(1.6 - 1vw);
+}
+
+.word-space {
+  word-spacing: clamp(1.5rem, 4vw, 3.56rem);
+  margin-bottom: 2.38rem;
+}
+
+.register {
+  font-weight: 600;
+  padding: 0.5em 1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pros__section h2 {
+  margin-bottom: 5.44rem;
+}
+
+.pros__section .row {
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.pro {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.6em;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 9.37rem;
+}
+
+.pro h3 {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 700;
+}
+
+.pro p,
+.pro time {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+}
+
+.quote {
+  min-height: 10rem;
+  padding-block: clamp(4rem, 8%, 8.25rem) clamp(4rem, 8%, 6.37rem);
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+.videos {
+  padding-block: 5.44rem;
+}
+figure {
+  position: relative;
+}
+
+figure::after {
+  content: url(./images/play.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.videos h2 {
+  margin-bottom: 4.69rem;
+}
+
+.tutorial {
+  max-width: 15.9375rem;
+  border-radius: 5px;
+  overflow: hidden;
+  display: grid;
+  gap: 0.5rem;
+  flex-basis: 46%;
+}
+
+.tutorial p {
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 0.875rem;
+}
+
+.tutorial__title,
+.tutorial__rating {
+  color: #c271ff;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.tutorial__rating {
+  justify-content: space-between;
+}
+
+.tutorial__rating img {
+  min-width: 40px;
+}
+
+.tutorial__title img {
+  max-width: 1.875rem;
+  max-height: 1.875rem;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.membership {
+  padding-block: 4.38rem 3.25rem;
+}
+
+.membership h2 {
+  margin-bottom: 3.63rem;
+}
+
+.member {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.6em;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 13.825rem;
+}
+
+.member img {
+  max-width: 2.72913rem;
+  max-height: 2.20956rem;
+  margin-bottom: 1.66rem;
+  margin-inline: auto;
+}
+
+.faq_section {
+  padding-block: 4.19rem 5.25rem;
+}
+.faq_title {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-bottom: 4.62rem;
+}
+
+.membership button {
+  margin-top: 5.31rem;
+}
+
+.my__grid {
+  row-gap: 4rem;
+}
+
+.faq h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.88rem;
+}
+.faq p {
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+/*******FOOTER********/
+footer {
+  color: white;
+  padding-block: clamp(3.44rem, 7%, 5.74rem) 2.13rem;
+}
+
+.footer__logo {
+  flex-shrink: 0;
+  height: 2rem;
+  width: 10.0625rem;
+}
+
+footer .row {
+  align-items: center;
+  gap: 2.81rem;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  gap: 6rem 3.62rem;
+}
+
+.footer__icons {
+  color: white;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+footer small {
+  color: white;
+  display: block;
+  margin-top: 2.81rem;
+  opacity: 0.4;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .videos .row {
+    gap: 1.94rem;
+  }
+  footer .row {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 6rem 3.62rem;
+    justify-content: space-between;
+    margin-inline: auto;
+    max-width: 33.495rem;
+  }
+
+  /*******FOOTER SECTION********/
+  footer .row {
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  /*******WHAT WE DO SECTION********/
+  .row {
+    flex-flow: row nowrap;
+    max-width: 100%;
+  }
+}
