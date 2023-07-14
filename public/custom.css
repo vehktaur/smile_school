@@ -125,16 +125,21 @@ q {
 .videos {
   padding-block: 5.44rem;
 }
-figure {
+.tutorial__video {
   position: relative;
 }
 
-figure::after {
+.tutorial__video::after {
   content: url(./images/play.png);
   position: absolute;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+}
+
+.tutorial__video:hover{
+  filter: saturate(1.5) drop-shadow(3px 1px 6px gray);
+  transition: filter 400ms ease-out;
 }
 
 .videos h2 {
