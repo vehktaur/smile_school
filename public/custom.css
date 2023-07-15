@@ -3,6 +3,28 @@
   margin: 0;
   padding: 0;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: .9rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #818489;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1d2939;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
