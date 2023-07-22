@@ -276,11 +276,10 @@ footer {
 
 footer .row {
   align-items: center;
-  gap: 2.81rem;
   justify-content: center;
   display: flex;
   flex-flow: column;
-  gap: 6rem 3.62rem;
+  gap: 3.62rem;
 }
 
 .footer__icons {
